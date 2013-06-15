@@ -11,6 +11,9 @@ namespace IDAL
         IList<UserInfo> GetAllUser();
         IList<UserInfo> SelectUser(string LoginName);
 
+
+
+
         int Add(UserInfo user);
         int Delete(UserInfo user);
         int Update(UserInfo user);
