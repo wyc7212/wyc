@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17FF6B67-EAE2-467D-9213-EDFAB84AFFBA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\AddAll.gif" />
+    <Content Include="Images\AddTo.gif" />
+    <Content Include="Images\Answer.jpg" />
+    <Content Include="Images\back.gif" />
+    <Content Include="Images\BackWhite.gif" />
+    <Content Include="Images\BanKuai.gif" />
+    <Content Include="Images\BanKuaiJianTou.gif" />
+    <Content Include="Images\bg.bmp" />
+    <Content Include="Images\BGLine.png" />
+    <Content Include="Images\BottomBg.gif" />
+    <Content Include="Images\btn.png" />
+    <Content Include="Images\btn_end.gif" />
+    <Content Include="Images\Button\BtnAdd.jpg" />
+    <Content Include="Images\Button\BtnAddDir.jpg" />
+    <Content Include="Images\Button\BtnDel.jpg" />
+    <Content Include="Images\Button\BtnExit.jpg" />
+    <Content Include="Images\Button\BtnHuiFu.jpg" />
+    <Content Include="Images\Button\BtnModify.jpg" />
+    <Content Include="Images\Button\BtnPrint.jpg" />
+    <Content Include="Images\Button\BtnReport.jpg" />
+    <Content Include="Images\Button\BtnSend.jpg" />
+    <Content Include="Images\Button\BtnSerch.jpg" />
+    <Content Include="Images\Button\btn_closewin.gif" />
+    <Content Include="Images\Button\DelFile.jpg" />
+    <Content Include="Images\Button\Ding.jpg" />
+    <Content Include="Images\Button\Down.gif" />
+    <Content Include="Images\Button\Edit.gif" />
+    <Content Include="Images\Button\EditFile.gif" />
+    <Content Include="Images\Button\FDJ.gif" />
+    <Content Include="Images\Button\FDJ.jpg" />
+    <Content Include="Images\Button\First.jpg" />
+    <Content Include="Images\Button\GetMail.jpg" />
+    <Content Include="Images\Button\InsertQianMing.gif" />
+    <Content Include="Images\Button\InsertRedHead.gif" />
+    <Content Include="Images\Button\InsertYinZhang.gif" />
+    <Content Include="Images\Button\JianGe.jpg" />
+    <Content Include="Images\Button\JianTou.gif" />
+    <Content Include="Images\Button\Jump.jpg" />
+    <Content Include="Images\Button\Last.jpg" />
+    <Content Include="Images\Button\Left.gif" />
+    <Content Include="Images\Button\Man.gif" />
+    <Content Include="Images\Button\Man.jpg" />
+    <Content Include="Images\Button\Next.jpg" />
+    <Content Include="Images\Button\Pre.jpg" />
+    <Content Include="Images\Button\QianShou.jpg" />
+    <Content Include="Images\Button\QuDing.jpg" />
+    <Content Include="Images\Button\Read.gif" />
+    <Content Include="Images\Button\ReadFile.gif" />
+    <Content Include="Images\Button\ReLoad.jpg" />
+    <Content Include="Images\Button\Right.gif" />
+    <Content Include="Images\Button\search.gif" />
+    <Content Include="Images\Button\Select.gif" />
+    <Content Include="Images\Button\SelectAll.jpg" />
+    <Content Include="Images\Button\Setting.gif" />
+    <Content Include="Images\Button\ShenPiNo.jpg" />
+    <Content Include="Images\Button\ShenPiNo1.jpg" />
+    <Content Include="Images\Button\ShenPiOK.jpg" />
+    <Content Include="Images\Button\ShenPiOK1.jpg" />
+    <Content Include="Images\Button\SmsD.gif" />
+    <Content Include="Images\Button\Submit.jpg" />
+    <Content Include="Images\Button\SubmitCaoGao.jpg" />
+    <Content Include="Images\Button\Up.gif" />
+    <Content Include="Images\Button\UpLoad.jpg" />
+    <Content Include="Images\Button\vote.gif" />
+    <Content Include="Images\Button\Wait.jpg" />
+    <Content Include="Images\Button\WenJianJia.gif" />
+    <Content Include="Images\Button\WenJianJiaGongXiang.gif" />
+    <Content Include="Images\child.gif" />
+    <Content Include="Images\child1.gif" />
+    <Content Include="Images\close_x.png" />
+    <Content Include="Images\collapse_arrow.png" />
+    <Content Include="Images\comm.gif" />
+    <Content Include="Images\CRF.jpg" />
+    <Content Include="Images\Dir.gif" />
+    <Content Include="Images\FDJ.gif" />
+    <Content Include="Images\FenXi.gif" />
+    <Content Include="Images\FileType\aac.gif" />
+    <Content Include="Images\FileType\ace.gif" />
+    <Content Include="Images\FileType\ai.gif" />
+    <Content Include="Images\FileType\ain.gif" />
+    <Content Include="Images\FileType\amr.gif" />
+    <Content Include="Images\FileType\app.gif" />
+    <Content Include="Images\FileType\arj.gif" />
+    <Content Include="Images\FileType\asf.gif" />
+    <Content Include="Images\FileType\asp.gif" />
+    <Content Include="Images\FileType\aspx.gif" />
+    <Content Include="Images\FileType\av.gif" />
+    <Content Include="Images\FileType\avi.gif" />
+    <Content Include="Images\FileType\bin.gif" />
+    <Content Include="Images\FileType\bmp.gif" />
+    <Content Include="Images\FileType\cab.gif" />
+    <Content Include="Images\FileType\cad.gif" />
+    <Content Include="Images\FileType\cat.gif" />
+    <Content Include="Images\FileType\cdr.gif" />
+    <Content Include="Images\FileType\chm.gif" />
+    <Content Include="Images\FileType\com.gif" />
+    <Content Include="Images\FileType\css.gif" />
+    <Content Include="Images\FileType\cur.gif" />
+    <Content Include="Images\FileType\dat.gif" />
+    <Content Include="Images\FileType\db.gif" />
+    <Content Include="Images\FileType\dir.gif" />
+    <Content Include="Images\FileType\dll.gif" />
+    <Content Include="Images\FileType\dmv.gif" />
+    <Content Include="Images\FileType\doc.gif" />
+    <Content Include="Images\FileType\dot.gif" />
+    <Content Include="Images\FileType\dps.gif" />
+    <Content Include="Images\FileType\dpt.gif" />
+    <Content Include="Images\FileType\dwg.gif" />
+    <Content Include="Images\FileType\dxf.gif" />
+    <Content Include="Images\FileType\emf.gif" />
+    <Content Include="Images\FileType\eps.gif" />
+    <Content Include="Images\FileType\et.gif" />
+    <Content Include="Images\FileType\ett.gif" />
+    <Content Include="Images\FileType\exe.gif" />
+    <Content Include="Images\FileType\fla.gif" />
+    <Content Include="Images\FileType\ftp.gif" />
+    <Content Include="Images\FileType\gif.gif" />
+    <Content Include="Images\FileType\hlp.gif" />
+    <Content Include="Images\FileType\htm.gif" />
+    <Content Include="Images\FileType\html.gif" />
+    <Content Include="Images\FileType\icl.gif" />
+    <Content Include="Images\FileType\ico.gif" />
+    <Content Include="Images\FileType\img.gif" />
+    <Content Include="Images\FileType\inf.gif" />
+    <Content Include="Images\FileType\ini.gif" />
+    <Content Include="Images\FileType\iso.gif" />
+    <Content Include="Images\FileType\jpeg.gif" />
+    <Content Include="Images\FileType\jpg.gif" />
+    <Content Include="Images\FileType\js.gif" />
+    <Content Include="Images\FileType\m3u.gif" />
+    <Content Include="Images\FileType\max.gif" />
+    <Content Include="Images\FileType\mdb.gif" />
+    <Content Include="Images\FileType\mde.gif" />
+    <Content Include="Images\FileType\mht.gif" />
+    <Content Include="Images\FileType\mid.gif" />
+    <Content Include="Images\FileType\midi.gif" />
+    <Content Include="Images\FileType\mov.gif" />
+    <Content Include="Images\FileType\mp3.gif" />
+    <Content Include="Images\FileType\mp4.gif" />
+    <Content Include="Images\FileType\mpeg.gif" />
+    <Content Include="Images\FileType\mpg.gif" />
+    <Content Include="Images\FileType\msi.gif" />
+    <Content Include="Images\FileType\nrg.gif" />
+    <Content Include="Images\FileType\ocx.gif" />
+    <Content Include="Images\FileType\ogg.gif" />
+    <Content Include="Images\FileType\ogm.gif" />
+    <Content Include="Images\FileType\other.gif" />
+    <Content Include="Images\FileType\pdf.gif" />
+    <Content Include="Images\FileType\png.gif" />
+    <Content Include="Images\FileType\pot.gif" />
+    <Content Include="Images\FileType\ppt.gif" />
+    <Content Include="Images\FileType\psd.gif" />
+    <Content Include="Images\FileType\pub.gif" />
+    <Content Include="Images\FileType\qt.gif" />
+    <Content Include="Images\FileType\ra.gif" />
+    <Content Include="Images\FileType\ram.gif" />
+    <Content Include="Images\FileType\rar.gif" />
+    <Content Include="Images\FileType\rm.gif" />
+    <Content Include="Images\FileType\rmvb.gif" />
+    <Content Include="Images\FileType\rtf.gif" />
+    <Content Include="Images\FileType\ShareDir.gif" />
+    <Content Include="Images\FileType\swf.gif" />
+    <Content Include="Images\FileType\tar.gif" />
+    <Content Include="Images\FileType\tif.gif" />
+    <Content Include="Images\FileType\tiff.gif" />
+    <Content Include="Images\FileType\txt.gif" />
+    <Content Include="Images\FileType\unknown.gif" />
+    <Content Include="Images\FileType\url.gif" />
+    <Content Include="Images\FileType\vbs.gif" />
+    <Content Include="Images\FileType\vsd.gif" />
+    <Content Include="Images\FileType\vss.gif" />
+    <Content Include="Images\FileType\vst.gif" />
+    <Content Include="Images\FileType\wav.gif" />
+    <Content Include="Images\FileType\wave.gif" />
+    <Content Include="Images\FileType\wm.gif" />
+    <Content Include="Images\FileType\wma.gif" />
+    <Content Include="Images\FileType\wmd.gif" />
+    <Content Include="Images\FileType\wmf.gif" />
+    <Content Include="Images\FileType\wmv.gif" />
+    <Content Include="Images\FileType\wps.gif" />
+    <Content Include="Images\FileType\wpt.gif" />
+    <Content Include="Images\FileType\xls.gif" />
+    <Content Include="Images\FileType\xlt.gif" />
+    <Content Include="Images\FileType\xml.gif" />
+    <Content Include="Images\FileType\zip.gif" />
+    <Content Include="Images\ico_clip.gif" />
+    <Content Include="Images\index_02.gif" />
+    <Content Include="Images\index_04.gif" />
+    <Content Include="Images\index_05.gif" />
+    <Content Include="Images\input.png" />
+    <Content Include="Images\JianTou.gif" />
+    <Content Include="Images\Jt_left.gif" />
+    <Content Include="Images\Jt_right.gif" />
+    <Content Include="Images\list_hd_bg.png" />
+    <Content Include="Images\login.gif" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\NewLogin.png" />
+    <Content Include="Images\node_user.gif" />
+    <Content Include="Images\NoYz.gif" />
+    <Content Include="Images\parent.gif" />
+    <Content Include="Images\parent1.gif" />
+    <Content Include="Images\parentopen.gif" />
+    <Content Include="Images\pencil.png" />
+    <Content Include="Images\product.png" />
+    <Content Include="Images\Question.jpg" />
+    <Content Include="Images\Remove.gif" />
+    <Content Include="Images\RemoveAll.gif" />
+    <Content Include="Images\ShareDir.gif" />
+    <Content Include="Images\ShiWu.jpg" />
+    <Content Include="Images\ShiWuSmall.jpg" />
+    <Content Include="Images\show_02.gif" />
+    <Content Include="Images\SmsBD.gif" />
+    <Content Include="Images\SmsD.gif" />
+    <Content Include="Images\s_loading.gif" />
+    <Content Include="Images\TalkRoom.gif" />
+    <Content Include="Images\time.gif" />
+    <Content Include="Images\TitleBg.gif" />
+    <Content Include="Images\top.gif" />
+    <Content Include="Images\TreeImages\%40asset.gif" />
+    <Content Include="Images\TreeImages\%40basedata.gif" />
+    <Content Include="Images\TreeImages\%40bbs.gif" />
+    <Content Include="Images\TreeImages\%40book.gif" />
+    <Content Include="Images\TreeImages\%40chatroom.gif" />
+    <Content Include="Images\TreeImages\%40crm.gif" />
+    <Content Include="Images\TreeImages\%40crmsetting.gif" />
+    <Content Include="Images\TreeImages\%40finance.gif" />
+    <Content Include="Images\TreeImages\%40hrms.gif" />
+    <Content Include="Images\TreeImages\%40infofind.gif" />
+    <Content Include="Images\TreeImages\%40mail.gif" />
+    <Content Include="Images\TreeImages\%40manage.gif" />
+    <Content Include="Images\TreeImages\%40meeting.gif" />
+    <Content Include="Images\TreeImages\%40netmeeting.gif" />
+    <Content Include="Images\TreeImages\%40notify2.gif" />
+    <Content Include="Images\TreeImages\%40office_Product.gif" />
+    <Content Include="Images\TreeImages\%40provider.gif" />
+    <Content Include="Images\TreeImages\%40roll_manage.gif" />
+    <Content Include="Images\TreeImages\%40salary.gif" />
+    <Content Include="Images\TreeImages\%40sale.gif" />
+    <Content Include="Images\TreeImages\%40score.gif" />
+    <Content Include="Images\TreeImages\%40sms.gif" />
+    <Content Include="Images\TreeImages\%40statistic.gif" />
+    <Content Include="Images\TreeImages\%40system.gif" />
+    <Content Include="Images\TreeImages\%40test.gif" />
+    <Content Include="Images\TreeImages\%40unit.gif" />
+    <Content Include="Images\TreeImages\%40vehicle.gif" />
+    <Content Include="Images\TreeImages\%40work_plan.gif" />
+    <Content Include="Images\TreeImages\1hrms.gif" />
+    <Content Include="Images\TreeImages\1news.gif" />
+    <Content Include="Images\TreeImages\1score.gif" />
+    <Content Include="Images\TreeImages\1vote.gif" />
+    <Content Include="Images\TreeImages\address.gif" />
+    <Content Include="Images\TreeImages\arrow_l.gif" />
+    <Content Include="Images\TreeImages\arrow_r.gif" />
+    <Content Include="Images\TreeImages\asset.gif" />
+    <Content Include="Images\TreeImages\attendance.gif" />
+    <Content Include="Images\TreeImages\bbs.gif" />
+    <Content Include="Images\TreeImages\bbs1.gif" />
+    <Content Include="Images\TreeImages\bbs2.gif" />
+    <Content Include="Images\TreeImages\book.gif" />
+    <Content Include="Images\TreeImages\calendar.gif" />
+    <Content Include="Images\TreeImages\calendar2.gif" />
+    <Content Include="Images\TreeImages\chatroom.gif" />
+    <Content Include="Images\TreeImages\clock.gif" />
+    <Content Include="Images\TreeImages\comm.gif" />
+    <Content Include="Images\TreeImages\contact.gif" />
+    <Content Include="Images\TreeImages\contact1.gif" />
+    <Content Include="Images\TreeImages\contract.gif" />
+    <Content Include="Images\TreeImages\customer.gif" />
+    <Content Include="Images\TreeImages\diary.gif" />
+    <Content Include="Images\TreeImages\email.gif" />
+    <Content Include="Images\TreeImages\erp.gif" />
+    <Content Include="Images\TreeImages\exit.gif" />
+    <Content Include="Images\TreeImages\fav.gif" />
+    <Content Include="Images\TreeImages\file.jpg" />
+    <Content Include="Images\TreeImages\file_folder.gif" />
+    <Content Include="Images\TreeImages\finance.gif" />
+    <Content Include="Images\TreeImages\fldb.gif" />
+    <Content Include="Images\TreeImages\game.gif" />
+    <Content Include="Images\TreeImages\help.gif" />
+    <Content Include="Images\TreeImages\histroy.gif" />
+    <Content Include="Images\TreeImages\hrms.gif" />
+    <Content Include="Images\TreeImages\inbox.gif" />
+    <Content Include="Images\TreeImages\info.gif" />
+    <Content Include="Images\TreeImages\infofind.gif" />
+    <Content Include="Images\TreeImages\info_query.gif" />
+    <Content Include="Images\TreeImages\linkman.gif" />
+    <Content Include="Images\TreeImages\mailout.gif" />
+    <Content Include="Images\TreeImages\meeting.gif" />
+    <Content Include="Images\TreeImages\menu_url.gif" />
+    <Content Include="Images\TreeImages\mobile_sms.gif" />
+    <Content Include="Images\TreeImages\mytable.gif" />
+    <Content Include="Images\TreeImages\netchat.gif" />
+    <Content Include="Images\TreeImages\netdisk.gif" />
+    <Content Include="Images\TreeImages\netmeeting.gif" />
+    <Content Include="Images\TreeImages\news.gif" />
+    <Content Include="Images\TreeImages\new_email.gif" />
+    <Content Include="Images\TreeImages\notify.gif" />
+    <Content Include="Images\TreeImages\notify2.gif" />
+    <Content Include="Images\TreeImages\office_Product.gif" />
+    <Content Include="Images\TreeImages\office_Product1.gif" />
+    <Content Include="Images\TreeImages\outbox.gif" />
+    <Content Include="Images\TreeImages\person_info.gif" />
+    <Content Include="Images\TreeImages\picture.gif" />
+    <Content Include="Images\TreeImages\pro.gif" />
+    <Content Include="Images\TreeImages\product.gif" />
+    <Content Include="Images\TreeImages\query.gif" />
+    <Content Include="Images\TreeImages\roll_manage.gif" />
+    <Content Include="Images\TreeImages\salary.gif" />
+    <Content Include="Images\TreeImages\sale_manage.gif" />
+    <Content Include="Images\TreeImages\score.gif" />
+    <Content Include="Images\TreeImages\sentbox.gif" />
+    <Content Include="Images\TreeImages\shortcut.gif" />
+    <Content Include="Images\TreeImages\sms.gif" />
+    <Content Include="Images\TreeImages\source.gif" />
+    <Content Include="Images\TreeImages\statistic.gif" />
+    <Content Include="Images\TreeImages\sub_arrow.gif" />
+    <Content Include="Images\TreeImages\sys.gif" />
+    <Content Include="Images\TreeImages\system.gif" />
+    <Content Include="Images\TreeImages\test.gif" />
+    <Content Include="Images\TreeImages\theme.gif" />
+    <Content Include="Images\TreeImages\training.gif" />
+    <Content Include="Images\TreeImages\trash.gif" />
+    <Content Include="Images\TreeImages\tree_blank.gif" />
+    <Content Include="Images\TreeImages\tree_blankl.gif" />
+    <Content Include="Images\TreeImages\tree_dir.gif" />
+    <Content Include="Images\TreeImages\tree_diropen.gif" />
+    <Content Include="Images\TreeImages\tree_line.gif" />
+    <Content Include="Images\TreeImages\tree_minus.gif" />
+    <Content Include="Images\TreeImages\tree_minusl.gif" />
+    <Content Include="Images\TreeImages\tree_plus.gif" />
+    <Content Include="Images\TreeImages\tree_plusl.gif" />
+    <Content Include="Images\TreeImages\tree_transp.gif" />
+    <Content Include="Images\TreeImages\U01.gif" />
+    <Content Include="Images\TreeImages\url.gif" />
+    <Content Include="Images\TreeImages\vchat.gif" />
+    <Content Include="Images\TreeImages\vehicle.gif" />
+    <Content Include="Images\TreeImages\vmeet.gif" />
+    <Content Include="Images\TreeImages\vote.gif" />
+    <Content Include="Images\TreeImages\webmail.gif" />
+    <Content Include="Images\TreeImages\winexe.gif" />
+    <Content Include="Images\TreeImages\workflow.gif" />
+    <Content Include="Images\TreeImages\work_plan.gif" />
+    <Content Include="Images\TreeImages\world_time.gif" />
+    <Content Include="Images\Tree_01.jpg" />
+    <Content Include="Images\Tree_02.jpg" />
+    <Content Include="Images\Tree_03.jpg" />
+    <Content Include="Images\Tree_04.jpg" />
+    <Content Include="Images\U01.gif" />
+    <Content Include="Images\U02.gif" />
+    <Content Include="Images\U03.gif" />
+    <Content Include="Images\user_group.gif" />
+    <Content Include="Images\vote_bg.gif" />
+    <Content Include="LoginIn.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Styles\Style.css" />
+    <Content Include="Styles\StyleTest.css" />
+    <Content Include="Styles\WorkFlowCss\style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoginIn.aspx.cs">
+      <DependentUpon>LoginIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginIn.aspx.designer.cs">
+      <DependentUpon>LoginIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{B2F7CD67-A181-4B0F-8A45-851BF5BF9E74}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonFun\CommonFun.csproj">
+      <Project>{48339DC0-51B0-42F2-A6F6-DA7F375D7CA5}</Project>
+      <Name>CommonFun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{CABD0C3F-79A2-4517-A2B2-D42398A22609}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{BD377587-1B98-4329-86BD-26C4466C27A1}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57233</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
